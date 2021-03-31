@@ -1,0 +1,628 @@
+1.	Choose correct x path which retrieves the name of persons who live in the city ‘US’?
+Person names	Street	City	State
+Paul	5, valley	Las Vegas	US
+Mark 	9, Maple Valley	Whitestone	Canada
+Steve 	17, Park Avenue	Salmon 	Canada
+Charles 	8 Park	Bring tone	US
+Bob 	2, avenue	Las Vegas	US
+
+
+
+
+
+
+a.	
+Please choose correct answer
+
+a)	//table[@id='id]//td [text () ='US']//preceding-sibling::td[4]
+b)	//table[@id='id] //preceding-sibling::td[4]// td[text()='US']
+c)	//table[@id='id]//td [text () ='US']//following-sibling::td[4]
+d)	//table[@id='id]//td [text () ='US']//parent::td[4]
+Correct answer: a) //table[@id='id]//td [text () ='US']//preceding-sibling::td[4]
+2.	Match the following:
+
+A.	JUnit	1.	@BeforeMethod @AfterMethod
+B.	Web driver Listener	2.	@Before,@After
+C.	TestNG listener	3.	beforeClickOn,afterClickOn,beforeFindBy, afterFindBy
+D.	TestNG 	4.	onTestFailure, onTestSkipped, onTestSuccess
+
+Please choose correct answer
+
+a)	A-2, B-3, C-4, D-1.
+b)	A-3, B-2, C-2, D-1.
+c)	A-3, B-4, C-1, D-3.
+d)	A-4, B-3, C-2, D-1.
+Correct answer: A-2, B-3, C-4, D-1.
+
+3.	 What will be the output of this code?
+
+       enum Day {MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY}
+
+	public static void main(String[] args) 
+{
+		Set<Day> daysSet = new TreeSet<Day>();
+		daysSet.add(Day.SATURDAY);
+		daysSet.add(Day.WEDNESDAY);
+		daysSet.add(Day.FRIDAY);
+		daysSet.add(Day.WEDNESDAY);
+		for (Day days : daysSet) 
+{
+			System.out.println(days);
+
+		}
+	 }	
+
+Please choose correct answer
+
+a.	WEDNESDAY FRIDAY SATURDAY
+b.	SATURDAY WEDNESDAY FRIDAY WEDNESDAY.
+c.	MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY.
+d.	Complier error.
+Correct answer: WEDNESDAY FRIDAY SATURDAY
+4.	Select right option to switch out of frame function in selenium?
+
+Please choose correct answer
+a.	driver.switchTo().window(parentWindow);
+b.	driver.switchTo().window(childWindow);
+c.	driver.switchTo().frame(Web Element);
+d.	driver.switchTo().defaultContent();
+
+
+Correct answer:  driver.switchTo().defaultContent();
+
+5.	What will be the output of below program?
+
+public class Test {
+	public static void main(String[] args) {
+		String x = "abc";
+		String y = "abc";
+		x.concat(y);
+		System.out.print(x);
+	}
+}
+
+
+
+Please choose correct answer
+
+a.	abc
+b.	abcabc
+c.	 Null
+d.	Complier error.
+
+Correct answer: abc
+
+6.	When you install Jenkins without any plug-ins configured, what is the only type of Jenkins build job you can create?
+
+Please choose correct answer
+
+a.	Maven project
+b.	Pipeline project
+c.	Freestyle project
+d.	Multiconfiguration project
+Correct answer: Freestyle project
+
+7.	Which of the following commands runs Jenkins from the command line? 
+
+Please choose correct answer
+a.	java -jar jenkins.war
+b.	java -war jenkins.jar
+c.	java -jar jenkins.jar
+d.	java -war jenkins.war
+Correct answer: java -jar jenkins.war.
+8.	Identify the type of pipelines in Jenkins?
+
+Please choose correct answer
+a.	 Declarative pipeline
+b.	 Scripted pipeline
+c.	 Linear pipeline
+d.	 A & B both
+Correct answer: A & B both
+
+
+9.	Selects all the parent, grandparent, and so on of the element is related to which axis name in Selenium:
+Please choose correct answer
+a)	Ancestor
+b)	Preceding
+c)	 Parent
+d)	All of these.
+Correct answer: A
+
+10.	Right way to capture a screenshot in Selenium?
+
+Please choose correct answer
+
+a)	File  screen = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+b)	WebElement webelement =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+c)	Screenshot screen =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+d)	None of the above.
+
+
+Correct answer: A
+
+
+
+
+
+
+11.	 ------- method cannot be overridden?
+
+Please choose correct answer
+
+a)	super   
+b)	static
+c)	final
+d)	private
+e)	None of these
+
+Correct answer: C final
+
+12.	What is the output of this program?
+public class Main
+{
+public static void main (String args [])
+	{
+		int x = 8;
+		System.out.println(++x * 3 + " " + x);
+	}
+}
+
+Please choose correct answer
+
+a)	24 8
+b)	24 9
+c)	27 8
+d)	27 9
+Correct answer: d
+
+13.	Evaluate the following Java expression, if x=3, y=5, and z=10:
+
+++z + y - y + z + x++
+
+Please choose correct answer
+
+a)	24
+b)	23
+c)	20
+d)	25
+Correct answer: a
+14.	What will be the output of the following program?
+public class SampleTest 
+{  
+public static void main(String[] args) 
+{  
+               StringBuffer sobject = new StringBuffer("Complete");  
+        	sobject .setCharAt(1,'i');  
+        	sobject .setCharAt(7,'d');  
+        	System.out.println(sobject );  
+              }  
+    } 
+
+
+
+
+Please choose correct answer
+
+
+a.	Complete
+b.	Iomplede
+c.	Cimpletd
+d.	Coipletd
+Correct answer: c
+
+15.	What is the output of the following program?
+ public class Test implements Runnable
+{
+	public void run()
+	{
+		System.out.printf("GFG ");
+	}
+	public static void main(String[] args) throws InterruptedException
+	{
+		Thread thread1 = new Thread(new Test());
+		thread1.start();
+		thread1.start();
+		System.out.println(thread1.getState());
+	}
+}
+
+Please choose correct answer
+a)	GFG GFG TERMINATED
+b)	GFG TERMINATED
+c)	Compilation Error
+d)	Runtime Error
+          	  Correct answer: d
+
+16.	Which of the following is true about inheritance in Java?
+	1) Private methods are final.
+	2) Protected members are accessible within a package and 
+	 inherited classes outside the package.
+	3) Protected methods are final.
+	4) We cannot override private methods. 
+Please choose correct answer
+
+a)	1, 2 and 4.
+b)	Only 1 and 2.
+c)	1, 2 and 3.
+d)	2, 3 and 4.
+Correct answer: a
+
+
+1. For the given code, which of the options do you think would result in as the code output?
+
+public class Exceptional
+{
+	public static void main(String[] args){
+	method();
+	}
+	
+	public static int method(){
+	try{
+		System.out.println("try");
+		int x=33/0;
+		System.out.println(11);
+		return 11;
+	}
+	catch(Exception e){
+	System.out.println("catch");
+	System.out.println(17);
+	return 17;
+	}
+	}finally{
+	System.out.println("finally");
+	System.out.println(88);
+	return 88;
+	}
+	}
+	}
+	
+	Please choose a correct Answer:
+	a. try
+		11
+		catch
+		17
+		finally
+		88
+		
+	b. Exceptional.java:13 error: the return statement return a value that is never used
+		Exceptional.java:18 error: the return statement return a value that is never used
+		Exceptional.java:23 error: the return statement return a value that is never used
+		
+	 c. try
+		catch
+		finally
+		
+	d. try
+		catch
+		17
+		finally
+		88
+		
+
+2. Given the code below, which annotation should be applied to class's contacts field?
+
+@Entity
+public class Group{
+
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+private Long id;
+private String name;
+private List<Contact> contacts;
+}
+
+Please choose a correct Answer:
+	a.@OneToOne
+	b. @OneToMany
+	c. @ManyToOne
+	d. @ManyToMany
+	
+	
+3. What error would be obtained on execution of the given code? --> jdk 1.8 above
+
+class source{
+public static void main(String args[]){
+String __$1___str = "These Variables!";
+String $s=__$1___str;
+int a=31,b=a++;
+int @q=12;
+if($s=="These Variables")
+System.out.println("True"):
+else
+System.out.println("false"):
+}}
+
+Please choose a correct answer:
+a. error: not a statement
+int @q=12;
+error: illegal start of type
+int @q=12;
+
+b. error: illegal start of type
+String __$1___str = "These Variables!";
+
+error: illegal start of type
+int @q=12;
+
+c. error: not a statement
+int @q=12;
+
+error: ';' expected
+int @q=12;
+
+error: illegal start of type
+int @q=12;
+
+error: cannot find symbol
+String $s=__$1___str;
+
+d. error: illegal start of type
+String __$1___str = "These Variables!";
+
+error: cannot find symbol
+String $s=__$1___str;
+
+error: not a statement
+int @q=12;
+
+4. which of the given option is not correct regarding the given code?
+
+<tx:annotation-driven/>
+<bean id="txtManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+	<property name="dataSource" ref="dataSource"/>
+</>
+
+<jdbc:embedded-database id="dataSource">
+		<jdbc:script location="classpath:rewards/testdb/schema.sql"/>
+		<jdbc:script location="classpath:rewards/testdb/test-data.sql"/>
+</>
+
+Please choose correct answer
+a. It is declaring a container-managed datasourceb. 
+b. DataSourceTransactionManager is a subclass of AbstratPlatformTransactionManager
+c. It is defining a Transaction manager with id txManager for supporting transaction management
+d. It ios defining a been Post-processor that proxies @Transactional annoted bean <tx:annotation-driven/>
+
+
+5. public class Buffer{
+public static vod main(String[] args){
+String s1 = "xyz";
+String s2 = s1;
+s1+="d";
+System.out.println(s1+" "+s2+" "+(s1==s2));
+StringBuffer sb1 = new StringBuffer("abc");
+StringBuffer sb2 = sb1;
+sb1.append("d");
+System.out.println(sb1+" "+sb2+" "+(sb1==sb2));
+}}
+
+Please choose a correct answer:
+
+a. No, the code doesn't compile successfully and return the following error:
+Buffer.java:1:error: cannot use keyword as an <identifier>
+
+b. xyzd xyzd false
+abcd abc true
+
+c. xyzd xyz false
+abcd abcd true
+
+d. xyz xyz true
+abc abcd true
+
+6. Which type of test should be used for static content with no updations ?
+a. Manual
+b. Webdriver based automation
+c. Selenium RC or server tests
+d. Automated content search test
+
+7. Which of the following Selenium tool, is a Firefox plugin ?
+a. Selenium Grid
+b. Selenium 1
+c. None of these
+d. Selenium 2
+
+8. Which programming language did the earliest version of selenium was developed ?
+a. Python
+b. C++
+c. JS
+d. php
+
+9. Which of the following applications can interact with selenium ?
+a. Flash based application
+b. Silverlight based application
+c. None of these
+d. DOM based application
+
+10. Which programming language is not present in selenium core for making webscript drivers ?
+a. C
+b. C#
+c. Python
+d. Java
+
+11. Which type of test should be used for static content with no updations for a small scale website ?
+a. Automated content search test
+b. Selenium RC or server tests
+c. Webdriver based automation
+d. Manual
+
+12. Which method is used to access cookies ?
+a. getCookie
+b. Fetch
+c. Cookie
+d. fetchCookie
+
+13. What is the name of Javascript object which wraps the DOM in Selenium RC ?
+a. BrowserBot
+b. DOMBot
+c. WindowBot
+d. HTTPBot
+
+14. Which important factor is responsible for using the Selenium-Server with Selenium-WebDriver ?
+a. connect to a remote machine
+b. All of these
+c. not using the Java bindings
+d. using Selenium-Grid to distribute tests
+
+15. Which class does EventFiringWebDriver, acts as an wrapper on ?
+a. None of these
+b. EventFiring
+c. WebDriver
+d. EventListener
+
+16. Which implementation of Apache POI library is to be used for XLS files ?
+a. XSSF
+b. HPSF
+c. HSSF
+d. HSLF
+
+17. What data type is returned by beforeNavigateTo function, event listener ?
+a. None of these
+b. bool
+c. int
+d. char
+
+18. Which type of tests of a specific function within application, requiring some type of user input, and returning some type of results ?
+a. AJAX
+b. Function
+c. Static
+d. Dynamic
+
+
+19. What should be used for dynamically generated identifier ?
+a. Both of these
+b. Depends upon the project
+c. Use XPath locator
+d. Locate by ID and name attribute
+
+20. Which type of tests values that vary each instance of the page ?
+a. Function
+b. Static
+c. Dynamic
+d. AJAX
+
+21. What routes the selenese requests from the Test in Selenium grid ?
+a. Selenium hub
+b. Selenium Remote Control
+c. Selenium Server
+d. Depends upon the project
+
+22. What is called that scale for large test suites or test suites that must be run in multiple environments ?
+a. Selenium Web driver
+b. Selenium-Grid
+c. Selenium NG
+d. Selenium RC
+
+23. Which prototype need to be extended to create our own function to locate an element ?
+a. LocateBot
+b. SearchBot
+c. WebPageBot
+d. PageBot
+
+24. Which of the following is prefixed for all assessors registered in selenium object prototype ?
+a. get
+b. have
+c. put
+d. let
+
+25. How many parameters does an assessor can accept ?
+a. 5
+b. 4
+c. 3
+d. 2
+
+26. Which type of verify or assert method is used for presence of an HTML element ?
+a. ElementPresent
+b. PresentElement
+c. Element
+d. Present
+
+27. The selenium RC and web browser for application test uses which protocol for communication ?
+a. NTP
+b. Selenese
+c. HTTP
+d. P2P
+
+28. The extension of selenium IDE downloaded installer package, is ___________.
+a. Jar
+b. exe
+c. xpi
+d. msi
+
+29. What is the project configuration file if setting up a Selenium-Webdriver project in Maven?
+a. pom.xhtml
+b. pom.html
+c. pom.xml
+d. pom.json
+
+30. What is the data type of value returned by load function if using LoadableComponent?
+a. int
+b. None of these
+c. bool
+d. char
+
+31. Which of the following is usually used to check critical thing on a webpage, whose failure should not lead to continuation of test?
+a. Depends upon Automated
+b. Both Verify & assert
+c. assert
+d. verify
+
+32. What is not an advantage of linear framework of software testing
+a. If application is modified at any given point, a lot of rework is required, as the same type os code is replicatted at several instances
+b. Maintenanace of Linear Framework is considered to be challenging
+c. None of the above
+d. All of the above
+
+33. Which of the following is not benefit of TestNG against Junit
+a. Advance & easy annotation
+b. Concurrent execution of test scripts
+c. None of these
+d. Execution patterns can be set
+
+34. Which of the following will make Seleium wait for 15 seconds, no matter what happens or maximun time reached?
+a. implicit_wait
+b. sleep
+c. set_script_timeout
+d. set_page_load_timeout
+
+
+
+
+Devops
+
+1. What is the minimum Java version needed for Jenkins installation ?
+a. Version 5
+b. Version 8
+c. Version 7
+d. Version 6
+
+2. Which of the following is usually used for installing Selenium for Java project ?
+a. Apache Tomcat
+b. Spring Framework
+c. Apache Maven
+d. Hibernate
+
+3. What is not part of HTML5 ?
+a. XHR2
+b. WebSockets
+c. None of these
+d. IndexedDB
+
+4. What is Maven?
+a. software tool for project management
+b. Build automation
+c. All of these
+d. Building and managing Java projects
+
+5. Which file type is generated by Junit for test reporting with Selenium RC ?
+a. RTF
+b. XML
+c. HTML
+d. TXT
+
+6. Which of the following Jenkins trigger format, will schdule your build every minute?
+a. *0***
+b. *****
+c. ****0
+d. 0****
+
