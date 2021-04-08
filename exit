@@ -1,1 +1,148 @@
 
+17.	What will be the result of attempting to compile the following program?
+            public class MyClass {
+	long var;
+	public void MyClass(long param) 
+	{ var = param; } //(1)
+	public static void main(String[] args) {
+	MyClass a,b;
+	a = new MyClass(); //(2)
+	b = new MyClass(5); //(3)
+	}
+         }
+(a)
+A compilation ERROR will occur at (1), since constructors cannot specify a return value
+(b)
+A compilation error will occur at (2), since the class does not have a default constructor
+(c)
+A compilation error will occur at (3), since the class does not have a constructor which takes one argument of type int
+(d)
+The program will compile correctly
+(e)
+The program will compile and execute correctly.
+
+
+
+18.	What will be the output of the following Java program?
+    import java.util.*;
+    class Arraylist 
+    {
+        public static void main(String args[]) 
+        {
+            ArrayList obj = new ArrayList();
+            obj.add("A");
+            obj.add("B");
+            obj.add("C");
+            obj.add(1, "D");
+            System.out.println(obj);
+        }
+    }
+a) [A, B, C, D]
+b) [A, D, B, C]
+c) [A, D, C]
+d) [A, B, C]
+19.	Which exception is thrown when refresh web page?
+
+a.	stale element exception 
+b.	no such element exception 
+c.	null pointer exception 
+d.	none of these
+e.	ElementNotVisibleException
+
+20.	How do you close all the browsers from below options?
+a)	driver.switchTo().window(allWindows ).close();
+b)	driver.quit();
+c)	both and b
+d)	driver.manage.close();
+
+21.	How to Run Test Multiple Times Using TestNG Selenium Example?
+a)	@Test(invocationCount=10)
+b)	@Test(alwaysRun = true)
+c)	@Test (priority = 1)
+d)	None of these.
+
+22.	Select below options which perform upcasting in java?
+
+a)	One object1 = (One)new Two();  //  Here, One and Two are classes.
+b)	One object1 = new One();
+c)	WebDriver driver = new ChromeDriver();
+d)	Both A and C.
+
+23.	 What is the output for the following code fragment?
+int [ ] a = new int [5];
+a[0] = 5;
+a[1] = 4;
+a[2] = 3;
+System.out.print(a[0] + a[1] + a[4]);
+
+a)	9
+b)	5 3 1
+c)	5 3 0
+d)	8
+24.	Which of the following is a legal way to declare and instantiate an array of 5 Strings?
+
+a) String s = new String(5);
+b) String[5] s = new String;
+c) String[ ] s = new String[5];
+d) String s = new String[5];
+e) String[ ] s = new String;
+
+25.	What is the output of this program?
+public class MyClass {
+	public static void main(String args[]) {
+		int array_variable[] = new int[10];
+		for (int i = 0; i < 10; ++i) {
+			array_variable[i] = i;
+			System.out.print(array_variable[i] + " ");
+			i++;
+		}
+	}
+}
+a)	0 2 4 6 8
+b)	1 3 5 7 9
+c)	0 1 2 3 4 5 6 7 8 9
+d)	1 2 3 4 5 6 7 8 9 10
+
+
+
+
+26.	State output of the following code.
+int x = 20;
+int y = 10;
+if (x > y) {
+if (y > 10)
+System.out.println("y is " + y);
+} else
+System.out.println("x is  " + x);
+a)	 Error
+b)	 x is 20
+c)	 y is 10
+d)	 No output
+
+27.	What is the output of this program?
+	public class MyClass {
+	static String str = "";
+
+	public static void main(String args[]) {
+		try {
+			str += 'a';
+			throw new Exception();
+		} catch (Exception e) {
+			str += 'b';
+		} finally {
+			str += 'c';
+			method();
+			str += 'd';
+		}
+		System.out.println(str);
+	}
+
+	static void method() {
+		throw new NullPointerException();
+		}
+}
+
+a)	abc
+b)	abcd
+c)	runtime exception
+d)	compile timeError
