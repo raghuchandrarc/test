@@ -1,0 +1,30 @@
+﻿Project ,Date,Automation Coverage wrt automatable TCs,Automation Coverage wrt total manual TCs
+Appscript,3/21/2021,94%,38%
+Appscript,4/21/2021,94%,38%
+HCP Automation,3/21/2021,65%,48%
+HCP Automation,4/21/2021,65%,48%
+Product Translator,3/21/2021,84%,52%
+Product Translator,4/21/2021,84%,52%
+HTA,3/21/2021,100%,94%
+HTA,4/21/2021,100%,94%
+CPSMCO,3/21/2021,95%,55%
+CPSMCO,4/21/2021,95%,55%
+PEP,3/21/2021,42%,39%
+PEP,4/21/2021,40%,38%
+RWES,3/21/2021,53%,25%
+RWES,4/21/2021,50%,26%
+FIA/LAAD Deliverables,4/21/2021,75%,75%
+WOPR,3/21/2021,91%,5.06%
+WOPR,4/21/2021,96%,5.39%
+LAAD CONFIG_Latest,3/21/2021,100%,74%
+LAAD CONFIG_Latest,4/21/2021,100%,74%
+MAAS - MAP Core + Projected,3/21/2021,95%,95%
+MAAS - MAP Core + Projected,4/21/2021,87%,87%
+MAAS - MAP Core,3/21/2021,97%,92%
+MAAS - MAP Core,4/21/2021,97%,92%
+MAAS - BDF Migration ADW(Module 1 -5),3/21/2021,100%,99%
+MAAS - BDF Migration ADW(Module 1 -5),4/21/2021,95%,95%
+MAAS- Analog Performance Library (Tableau),3/21/2021,13%,13%
+MAAS- Analog Performance Library (Tableau),4/21/2021,4%,4%
+Brazil Prices,3/21/2021,67%,67%
+Brazil Prices,4/21/2021,5%,5%
